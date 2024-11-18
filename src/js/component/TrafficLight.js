@@ -13,7 +13,7 @@ const TrafficLight = () => {
 
     return (
         <div className="text-center">
-            <div className="row">
+            <div className="row mt-5">
                 <div className="col-5"></div>
                 <div className="col-1 red bg-dark ">
                 <i className="fa-solid fa-circle fa-8x pt-3" style={{ color: colorR[tonoR] }} onClick={() =>{
