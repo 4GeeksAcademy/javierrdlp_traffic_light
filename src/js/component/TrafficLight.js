@@ -13,9 +13,9 @@ const TrafficLight = () => {
 
     return (
         <div className="text-center">
-            <div className="row mt-5">
+            <div className="row mt-5 justify-content-center">
                 <div className="col-5"></div>
-                <div className="col-1 red bg-dark ">
+                <div className="col-auto red bg-dark ">
                 <i className="fa-solid fa-circle fa-8x pt-3" style={{ color: colorR[tonoR] }} onClick={() =>{
                     if(tonoR== 0){
                         setTonoR(1)
@@ -28,9 +28,9 @@ const TrafficLight = () => {
                 </div>
                 <div className="col-5"></div>
             </div>
-            <div className="row">
+            <div className="row justify-content-center">
                 <div className="col-5"></div>
-                <div className="col-1 yellow bg-dark p-3 ">
+                <div className="col-auto yellow bg-dark pt-3 pb-3 ">
                 <i className="fa-solid fa-circle fa-8x" style={{ color: colorY[tonoY]}} onClick={() =>{ 
                     if(tonoY== 0){
                         setTonoY(1)
@@ -43,9 +43,9 @@ const TrafficLight = () => {
                 </div>
                 <div className="col-5"></div>
             </div>
-            <div className="row">
+            <div className="row justify-content-center">
                 <div className="col-5"></div>
-                <div className="col-1 green bg-dark pb-3 ">
+                <div className="col-auto green bg-dark pb-3 ">
                 <i className="fa-solid fa-circle fa-8x" style={{ color: colorG[tonoG] }} onClick={() =>{
                     if(tonoG== 0){
                         setTonoG(1)
